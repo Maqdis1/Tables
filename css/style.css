@@ -1,0 +1,30 @@
+* {
+  margin: 20px;
+  padding: 20px;
+}
+table, th, td{
+  border: 2px solid;
+  border-collapse: collapse;
+    background-color: bisque;
+  }
+.text{
+  size: large;
+}
+tr:hover{
+    background-color: coral;
+    cursor: cell;
+}
+.image{
+    background-image: url(thumb.png)
+}
+.button:hover{
+    background-color: transparent;
+    display: inline;
+    border-radius: 5px;
+    size: 100px;
+    background-color: red;
+   }
+th {
+    background-color: #04AA6D;
+    color: white;
+  }
